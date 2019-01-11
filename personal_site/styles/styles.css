@@ -52,6 +52,19 @@ body {
 
 .title {
   font-size: 32px;
+  margin: 30px;
+  padding: 30px 500px;
+  width: 200;
+  border-width: small;
+  border-style: solid;
+  border-radius: 25px;
+}
+
+.current-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
