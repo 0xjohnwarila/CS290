@@ -50,16 +50,6 @@ body {
   display: block;
 }
 
-.title {
-  font-size: 32px;
-  margin: 30px;
-  padding: 30px 500px;
-  width: 200;
-  border-width: small;
-  border-style: solid;
-  border-radius: 25px;
-}
-
 .current-project {
   display: flex;
   flex-direction: column;
@@ -67,7 +57,32 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
+.current-project-article {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.current-project-article img {
+  width: 48%;
+  height: auto;
+  display: inline-block;
+}
+
+.current-project-article p {
+  display: inline-block;
+  width: 48%;
+  height: auto;
+  font-size: 20px;
+}
+
+@media (min-width: 420px) {
+  .current-project-article img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -97,5 +112,9 @@ body {
 
   .navbar-toggle {
     display: none;
+  }
+
+  .current-project-article img p { 
+    max-width: 48%;
   }
 }
