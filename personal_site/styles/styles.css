@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #FCFAEB;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -67,6 +68,11 @@ body {
   width: 48%;
   height: auto;
   display: inline-block;
+  border-style: solid;
+  border-size: 1px;
+  border-radius: 15px;
+  border-color: #5191cd;
+
 }
 
 .current-project-article p {
